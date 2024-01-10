@@ -4,8 +4,8 @@ go 1.18
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.0
-	github.com/ProtonMail/go-crypto v0.0.0-20230426101702-58e86b294756
-	github.com/cyphar/filepath-securejoin v0.2.3
+	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371
+	github.com/cyphar/filepath-securejoin v0.2.4
 	github.com/distribution/distribution/v3 v3.0.0-20230327091844-0c958010ace2
 	github.com/fluxcd/go-git-providers v0.15.3
 	github.com/fluxcd/go-git/v5 v5.0.0-20221219190809-2e5c9d01cfc4
@@ -29,20 +29,20 @@ require (
 	github.com/fluxcd/source-controller/api v1.0.0-rc.3
 	github.com/gonvenience/bunt v1.3.5
 	github.com/gonvenience/ytbx v1.4.4
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/go-containerregistry v0.14.0
 	github.com/homeport/dyff v1.5.6
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/manifoldco/promptui v0.9.0
 	github.com/mattn/go-shellwords v1.0.12
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/onsi/gomega v1.27.6
+	github.com/onsi/gomega v1.27.10
 	github.com/phayes/freeport v0.0.0-20220201140144-74d24b5ae9f5
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/theckman/yacspin v0.13.12
-	golang.org/x/crypto v0.8.0
-	golang.org/x/term v0.7.0
+	golang.org/x/crypto v0.16.0
+	golang.org/x/term v0.15.0
 	k8s.io/api v0.26.3
 	k8s.io/apiextensions-apiserver v0.26.3
 	k8s.io/apimachinery v0.26.3
@@ -60,6 +60,7 @@ require (
 replace gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
 
 require (
+	dario.cat/mergo v1.0.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.5.0-beta.1 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.3.0-beta.4 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.1.2 // indirect
@@ -67,7 +68,7 @@ require (
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.9.0 // indirect
 	github.com/BurntSushi/toml v1.0.0 // indirect
 	github.com/MakeNowJust/heredoc v1.0.0 // indirect
-	github.com/Microsoft/go-winio v0.6.0 // indirect
+	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/Shopify/logrus-bugsnag v0.0.0-20171204204709-577dee27f20d // indirect
 	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.17.7 // indirect
@@ -115,9 +116,9 @@ require (
 	github.com/fluxcd/pkg/tar v0.2.0 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-errors/errors v1.4.2 // indirect
-	github.com/go-git/gcfg v1.5.0 // indirect
-	github.com/go-git/go-billy/v5 v5.4.1 // indirect
-	github.com/go-git/go-git/v5 v5.6.1 // indirect
+	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
+	github.com/go-git/go-billy/v5 v5.5.0 // indirect
+	github.com/go-git/go-git/v5 v5.11.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
 	github.com/go-openapi/jsonreference v0.20.1 // indirect
@@ -186,7 +187,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sergi/go-diff v1.3.1 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
-	github.com/skeema/knownhosts v1.1.0 // indirect
+	github.com/skeema/knownhosts v1.2.1 // indirect
 	github.com/texttheater/golang-levenshtein v1.0.1 // indirect
 	github.com/vbatts/tar-split v0.11.2 // indirect
 	github.com/virtuald/go-ordered-json v0.0.0-20170621173500-b18e6e673d74 // indirect
@@ -197,14 +198,14 @@ require (
 	github.com/yvasiyarov/gorelic v0.0.0-20141212073537-a9bba5b9ab50 // indirect
 	github.com/yvasiyarov/newrelic_platform_go v0.0.0-20140908184405-b21fdbd4370f // indirect
 	go.starlark.net v0.0.0-20221028183056-acb66ad56dd2 // indirect
-	golang.org/x/mod v0.9.0 // indirect
-	golang.org/x/net v0.9.0 // indirect
+	golang.org/x/mod v0.12.0 // indirect
+	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/sync v0.3.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.7.0 // indirect
+	golang.org/x/tools v0.13.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.29.1 // indirect
